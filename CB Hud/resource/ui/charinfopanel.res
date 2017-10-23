@@ -125,6 +125,7 @@
 		"tabwidth"		"200"
 		"tabheight"		"34"
 		"transition_time" "0"
+		"yoffset" 		"0"
 		
 		"HeaderLine"
 		{
@@ -147,7 +148,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"5"
-            "textinsety"		"0"
+            "textinsety"		"12"
 			"font"				"roboto24"
 			"selectedcolor"		            "ya_MenuHi"
 			"unselectedcolor"	            "ya_MenuLo"	
@@ -163,7 +164,7 @@
 		}
 	}
 	
-		"BackbuttonBG1"
+	"BackbuttonBG1"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackbuttonBG1"
