@@ -488,17 +488,19 @@
 		"fieldName"		"BluePlayerList"
 		"xpos"			"c-240"
 		"xpos_minmode"			"c-120"
-		"ypos"			"90"
+		"ypos"			"94"
+		"ypos_minmode"	"94"
 		"zpos"			"20"
 		"wide"			"240"
-		"tall"			"228"	[$WIN32]
-		"tall_minmode"			"120"	[$WIN32]
+		"tall"			"230"	[$WIN32]
+		"tall_minmode"			"116"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"18"
+		"linespacing_minmode"	"17"
 		"fgcolor"		"blue"
 		
 		if_mvm
@@ -512,18 +514,19 @@
 		"fieldName"		"RedPlayerList"
 		"xpos"			"c0"
 		"xpos_minmode"			"c-120"
-		"ypos"			"90"
-		"ypos_minmode"			"228"
+		"ypos"			"94"
+		"ypos_minmode"			"232"
 		"zpos"			"20"
 		"wide"			"240"
-		"tall"			"228"	[$WIN32]
-		"tall_minmode"			"120"	[$WIN32]
+		"tall"			"230"	[$WIN32]
+		"tall_minmode"			"116"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"18"
+		"linespacing_minmode"	"17"
 		"textcolor"		"red"
 		
  		if_mvm
