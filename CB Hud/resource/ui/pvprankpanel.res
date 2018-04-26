@@ -24,6 +24,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -118,6 +123,11 @@
 
 			"paintbackground"	"0"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -182,7 +192,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,7 +200,6 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -200,7 +208,7 @@
 			"fieldName"		"NameLabel"
 			"xpos"			"65"
 			"ypos"			"5"
-			"wide"			"f0"
+			"wide"			"0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"0"
@@ -217,13 +225,45 @@
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"2"
-			"ypos"			"32"
-			"wide"			"52"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"65"
+			"ypos"			"19"
+			"wide"			"0"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"0"
+			"enabled"		"1"
+			"font"			"HudFontSmallestBold"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc1%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"	"195"
+			}
+
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"29"
+			"wide"			"50"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -231,15 +271,29 @@
 			"font"			"robotoreg10"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
-			"labelText"		"%level%"
+			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"	"67"
 				"ypos"	"4"
-				"wide"	"f0"
+				"wide"	"195"
 				"font"	"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+			}
+
+			"fonts"
+			{
+				"0"		"robotoreg10"
+				"1"		"robotoreg10"
+				"2"		"robotoreg10"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 
@@ -247,9 +301,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"0"
+			"xpos"			"63"
 			"ypos"			"0"
-			"wide"			"54"
+			"wide"			"53"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -291,7 +345,7 @@
 					
 					if_mini
 					{
-						"tall"		"20"
+						"tall" "20"
 					}
 				}
 
@@ -314,7 +368,7 @@
 					
 					if_mini
 					{
-						"tall"		"20"
+						"tall" "20"
 					}
 				}
 
@@ -369,11 +423,16 @@
 						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"
+						
+						if_mini
+						{
+							"wide"		"f0"
+						}
 					}
 				}
 			}
