@@ -187,6 +187,12 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"57 53 52 200"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"xpos"			"c-380"
+			"xpos_minmode"	"c-380"
+		}
 	}	
 	
 	"ShadedBarTitleBar"
@@ -206,6 +212,12 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"32 31 33 235"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"xpos"			"c-380"
+			"xpos_minmode"	"c-380"
+		}
 	}
 	
 	"BlueScoreBG"
@@ -607,6 +619,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
+
+		if_mvm
+		{
+			"xpos"			"c-380"
+			"xpos_minmode"	"c-380"
+		}
 	}		
 
 	"ClassImage"
@@ -658,7 +676,8 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"xpos"			"c-380"
+			"xpos_minmode"	"c-380"
 		}
 		
 		"ColonLabel"

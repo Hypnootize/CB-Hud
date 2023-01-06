@@ -592,6 +592,17 @@
 		"red_active_xpos"			"54"
 	}	
 
+	HudMedicCharge
+	{
+		"fieldName"		"HudMedicCharge"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-230"	[$WIN32]
+		"ypos"			"c70"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"480"
+	}
+
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
@@ -837,6 +848,18 @@
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
+	}
+
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c-56"
+		"ypos"				"c60"
+		"wide"				"100"
+		"tall"				"100"
+		"visible" 			"1"
+		"enabled" 			"1"
 	}
 	
 	HudProgressBar
@@ -1483,6 +1506,19 @@
 		"ypos"			"c-100"
 		"wide"			"450"
 		"tall"			"300"
+		"PaintBackgroundType"	"0"
+	}
+
+	"HudMenuSpyDisguise"
+	{
+		"fieldName" 	"HudMenuSpyDisguise"
+		"visible" 		"1"
+		"enabled" 		"1"
+        "xpos"          "c-225"
+        "ypos"          "c-40"
+        "zpos"          "3"
+        "wide"          "450"
+        "tall"          "200"   
 		"PaintBackgroundType"	"0"
 	}
 

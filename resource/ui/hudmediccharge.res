@@ -1,17 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-
-	HudMedicCharge
-	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-230"	[$WIN32]
-		"ypos"			"c70"	[$WIN32]
-		"wide"			"f0"
-		"tall"			"480"
-	}
-
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"

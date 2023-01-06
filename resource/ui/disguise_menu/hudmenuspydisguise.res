@@ -1,19 +1,5 @@
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
-
-	"HudMenuSpyDisguise"
-	{
-		"fieldName" 	"HudMenuSpyDisguise"
-		"visible" 		"1"
-		"enabled" 		"1"
-        "xpos"          "c-225"
-        "ypos"          "c-40"
-        "zpos"          "3"
-        "wide"          "450"
-        "tall"          "200"   
-		"PaintBackgroundType"	"0"
-	}	
-
 	"MainBackground"	
 	{
 		"ControlName"	"CIconPanel"
